@@ -139,21 +139,24 @@ span{
 .attribution {
      font-size: 11px; text-align: center; 
      padding-top: 2rem;
+     color:white;
+     font-weight: 600;
+     word-spacing: 0.19em;
      
 }
 
 
 .attribution a { 
-     color: hsl(228, 45%, 44%); 
+     color: lightgreen
 }
 
 /* Mobile Responsive */
 @media screen and (max-width:1023px) {
      .main-container {
           background-color: white;
-          height: 50rem;
+          height: 47rem;
           width: 30rem;
-          margin-top: 3.3rem;
+          margin-top: 4.5rem;
           min-width: 330px;
           display: flex;
           flex-direction: column;
@@ -173,7 +176,7 @@ span{
      
      .m-bg-image{
           display: block;
-          margin-bottom: 41.5rem;
+          margin-bottom: 40rem;
          
      }
       
@@ -187,7 +190,7 @@ span{
           display: block;
           width: 18rem;
           position: absolute;
-          margin-bottom: 52rem;
+          margin-bottom: 50rem;
      }
 
      .box-image{
@@ -221,12 +224,12 @@ span{
 }
 
 
-@media screen and (max-width:583px) {
+@media screen and (max-width:642px) {
      .main-container {
           background-color: white;
-          height: 50rem;
+          height: 46rem;
           width: 27rem;
-          margin-top: 3.7rem;
+          margin-top: 4.5rem;
           min-width: 330px;
           display: flex;
           flex-direction: column;
@@ -240,12 +243,12 @@ span{
      }
 }
 
-@media screen and (max-width:522px) {
+@media screen and (max-width:562px) {
      .main-container {
           background-color: white;
-          height: 50rem;
+          height: 44rem;
           width: 25rem;
-          margin-top: 4rem;
+          margin-top: 7rem;
           min-width: 330px;
           display: flex;
           flex-direction: column;
@@ -255,61 +258,32 @@ span{
           box-shadow: 0px 19px 18px rgb(125, 61, 122);
           position: relative;
           overflow: visible;   
-          font-size: 15px;
-     }
-}
-
-@media screen and (max-width:522px) {
-     .main-container {
-          background-color: white;
-          height: 50rem;
-          width: 25rem;
-          margin-top: 4rem;
-          min-width: 330px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          border-radius: 18px;
-          box-shadow: 0px 19px 18px rgb(125, 61, 122);
-          position: relative;
-          overflow: visible;   
-          font-size: 15px;
-     }
-}
-
-@media screen and (max-width:470px) {
-     .main-container {
-          background-color: white;
-          height: 48rem;
-          width: 26rem;
-          margin-top: 4rem;
-          min-width: 330px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          border-radius: 18px;
-          box-shadow: 0px 19px 18px rgb(125, 61, 122);
-          position: relative;
-          overflow: visible;   
-          font-size: 15px;
+          font-size: 16px;
      }
 
      .m-lady-image{
           display: block;
           width: 18rem;
           position: absolute;
-          margin-bottom: 51rem;
+          margin-bottom: 47rem;
      }
+
+     .m-bg-image{
+          display: block;
+          margin-bottom: 36.8rem;
+          
+         
+     }
+      
 }
 
-@media screen and (max-width:462px) {
+
+@media screen and (max-width:507px) {
      .main-container {
           background-color: white;
-          height: 48rem;
+          height: 42rem;
           width: 24rem;
-          margin-top: 4rem;
+          margin-top: 7rem;
           min-width: 330px;
           display: flex;
           flex-direction: column;
@@ -319,23 +293,31 @@ span{
           box-shadow: 0px 19px 18px rgb(125, 61, 122);
           position: relative;
           overflow: visible;   
-          font-size: 15px;
+          font-size: 14px;
      }
 
      .m-lady-image{
           display: block;
           width: 18rem;
           position: absolute;
-          margin-bottom: 51rem;
+          margin-bottom: 45rem;
      }
+
+     .m-bg-image{
+          display: block;
+          margin-bottom: 35rem;
+          
+         
+     }
+      
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:474px) {
      .main-container {
           background-color: white;
-          height: 46rem;
-          width: 21rem;
-          margin-top: 4rem;
+          height: 40rem;
+          width: 22rem;
+          margin-top: 6rem;
           min-width: 330px;
           display: flex;
           flex-direction: column;
@@ -352,12 +334,138 @@ span{
           display: block;
           width: 18rem;
           position: absolute;
-          margin-bottom: 49rem;
+          margin-bottom: 43rem;
      }
 
      .m-bg-image{
           display: block;
-          margin-bottom: 39rem;
+          margin-bottom: 33rem;
+          
          
      }
+      
 }
+
+
+@media screen and (max-width:447px) {
+     .main-container {
+          background-color: white;
+          height: 38rem;
+          width: 20rem;
+          margin-top: 4rem;
+          min-width: 330px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border-radius: 18px;
+          box-shadow: 0px 19px 18px rgb(125, 61, 122);
+          position: relative;
+          overflow: visible;   
+          font-size: 12px;
+     }
+
+     .m-lady-image{
+          display: block;
+          width: 18rem;
+          position: absolute;
+          margin-bottom: 41rem;
+     }
+
+     .m-bg-image{
+          display: block;
+          margin-bottom: 32rem;    
+     }
+
+     h1{
+          display: grid;
+          place-items: center;
+          margin-bottom: 3rem;
+          font-size: 2rem;
+     }
+      
+}
+
+@media screen and (max-width:423px) {
+     .main-container {
+          background-color: white;
+          height: 36rem;
+          width: 19rem;
+          margin-top: 4rem;
+          min-width: 330px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border-radius: 18px;
+          box-shadow: 0px 19px 18px rgb(125, 61, 122);
+          position: relative;
+          overflow: visible;   
+          font-size: 12px;
+     }
+
+     .m-lady-image{
+          display: block;
+          width: 17rem;
+          position: absolute;
+          margin-bottom: 39rem;
+     }
+
+     .m-bg-image{
+          display: block;
+          
+          margin-bottom: 31rem;    
+     }
+
+     h1{
+          display: grid;
+          place-items: center;
+          margin-bottom: 2rem;
+          font-size: 1.8rem;
+     }
+      
+}
+
+
+@media screen and (max-width:401px) {
+     .main-container {
+          background-color: white;
+          height: 35rem;
+          width: 12rem;
+          margin-top: 4rem;
+          min-width: 330px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border-radius: 18px;
+          box-shadow: 0px 19px 18px rgb(125, 61, 122);
+          position: relative;
+          overflow: visible;   
+          font-size: 12px;
+     }
+
+     .m-lady-image{
+          display: block;
+          width: 16rem;
+          position: absolute;
+          margin-bottom: 38rem;
+     }
+
+     .m-bg-image{
+          display: block;
+          
+          margin-bottom: 30rem;    
+     }
+
+     h1{
+          display: grid;
+          place-items: center;
+          margin-bottom: 1rem;
+          font-size: 1.6rem;
+     }
+      
+}
+
+
+
