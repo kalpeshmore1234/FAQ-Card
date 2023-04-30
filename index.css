@@ -430,7 +430,7 @@ span{
 @media screen and (max-width:401px) {
      .main-container {
           background-color: white;
-          height: 33rem;
+          height: 32rem;
           width: 12rem;
           margin-top: 4rem;
           min-width: 330px;
@@ -447,22 +447,23 @@ span{
 
      .m-lady-image{
           display: block;
-          width: 15rem;
+          width: 14rem;
           position: absolute;
-          margin-bottom: 36rem;
+          margin-bottom: 34.9rem;
      }
 
      .m-bg-image{
           display: block;
           
-          margin-bottom: 29rem;    
+          margin-bottom: 28.9rem; 
+        
      }
 
      h1{
           display: grid;
           place-items: center;
           margin-bottom: 0.90rem;
-          font-size: 1.6rem;
+          font-size: 1.5rem;
      }
       
 }
